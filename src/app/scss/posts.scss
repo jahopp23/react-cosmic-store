@@ -1,16 +1,31 @@
 .postList{
   overflow: hidden;
+  display:inline-block;
+  background-color: black;
 }
+
+.postList .card{
+  display: inline-block;
+  width: 300px;
+  margin: 2.00em;
+  margin-left: 2.00em;
+}
+
+.card .card-image{
+  height: 300px;
+  border-radius: 0.0rem;
+}
+
+
 
 .cardContainer{
   margin: 4% 1%;
-  height: 400px;
-  border-radius: 4px;
+  
   position: relative;
   text-align: center;
   background: white;
   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
-  float: left;
+ 
   font-family: 'Josefin Sans', sans-serif;
   color: $backgroundColor;
   transition: width 0.1s linear;
@@ -19,6 +34,7 @@
 .article > div > img {
     width:30px;
     height:30px;
+
     border-radius:50%;
     background-size:cover;
     box-shadow:0 2px 3px rgba(0,0,0,0.3);
@@ -50,14 +66,21 @@
   margin: 0% 2px;
 }
 
+
+
+.post-image{
+
+}
+
 @media only screen and (min-width: 1000px) {
     .cardContainer {
         width: 30%;
         margin: 1em;
+        
     }
 
     .card-image{
-      max-height: 15%;
+      
     }
 }
 
@@ -68,7 +91,7 @@
       margin-bottom: 80px;
     }
     .card-image{
-      max-height: 35%;
+      
     }
 }
 
@@ -89,9 +112,11 @@
 }
 
 .card-image{
-  width: 100%;
-  max-height: 200px;
+ 
+ 
   overflow: hidden;
+
+ 
 }
 
 .card-image img{

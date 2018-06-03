@@ -4,8 +4,11 @@ import Post from './containers/Post'
 import Slug from './containers/Slug'
 
 
+
+
 const Routes = () => (
   <div>
+
     <main>
       <Route exact path="/" component={Post} />
       <Route exact path="/:slug" component={Slug} />

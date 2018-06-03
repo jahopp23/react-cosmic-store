@@ -6,10 +6,16 @@ html,body {
 
 }
 
+.main{
+  background-color: black;
+}
+
 .footer {
   position: absolute;
   width: 100%;
   padding: 40px;
+  background-color: #353a40;
+  color: white;
 }
 
 .logoFooter {
@@ -24,7 +30,7 @@ html,body {
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  display: inline;
 }
 
 .App-header {
@@ -32,7 +38,6 @@ html,body {
   height: $headerMinHeight;
   color: white;
   text-align: center;
-  margin-bottom: -142px;
   padding-top: 40px;
 }
 
@@ -43,6 +48,8 @@ html,body {
 .App-intro {
   font-size: large;
 }
+
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

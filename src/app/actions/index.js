@@ -17,6 +17,7 @@ function receivePosts(json){
     posts: json.map(data => {
       data.author = data.metadata.author.title;
       data.authorImage = data.metadata.author.metadata.image.url;
+ 
       return data
     }),
     receivedAt: Date.now()

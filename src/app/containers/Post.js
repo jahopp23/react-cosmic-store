@@ -8,6 +8,8 @@ import Footer from '../components/footer'
 import Logo from '../components/logo'
 import '../scss/index.scss'
 
+
+
 class Post extends Component {
 
   componentDidMount(){
@@ -17,10 +19,7 @@ class Post extends Component {
   render() {
     return (
       <div>
-        <header className="App-header">
-          <Logo height={80} width={80} styleName="App-logo"/>
-          <h1 className="App-title">Cosmic JS</h1>
-        </header>
+      
           <PostList
             posts={this.props.data}
             />

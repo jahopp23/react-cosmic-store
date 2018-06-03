@@ -2,10 +2,18 @@ import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import PostComponent from '../components/postItem'
 import moment from 'moment'
+import { Container, Row, Col } from 'reactstrap';
+import { Table } from 'reactstrap';
+
+
 
 const PostList  = ({posts}) => (
-  <ul className="postList">
+    
+    
+    <ul className="postList">
+   
     {posts.map((item, index) => (
+    
       <PostComponent
         slug={item.slug}
         key={index}
@@ -15,8 +23,11 @@ const PostList  = ({posts}) => (
         image={item.metadata.hero.url}
         title={item.title}
         />
+        
     ))}
-  </ul>
+    </ul>
+    
+ 
 )
 
 
