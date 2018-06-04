@@ -1,19 +1,32 @@
 .postList{
   overflow: hidden;
   display:inline-block;
-  background-color: black;
+  background-color: #E8E8E8;
+
 }
 
 .postList .card{
   display: inline-block;
-  width: 300px;
-  margin: 2.00em;
-  margin-left: 2.00em;
+
+  margin-top: 2.00rem;
+  display: inline-block;
+  margin: 1.00rem;
+ 
+
+
+
 }
 
 .card .card-image{
-  height: 300px;
+
   border-radius: 0.0rem;
+  max-height: 175px;
+
+ 
+}
+
+.product-container {
+  background-color: white;
 }
 
 
@@ -21,7 +34,7 @@
 .cardContainer{
   margin: 4% 1%;
   
-  position: relative;
+  position: relative; width: 200px;
   text-align: center;
   background: white;
   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
@@ -72,28 +85,26 @@
 
 }
 
+@media only screen and (min-width: 319px){
+  .productList .card{
+    width: 200px;
+  }
+}
+
+
+
+
 @media only screen and (min-width: 1000px) {
-    .cardContainer {
-        width: 30%;
-        margin: 1em;
-        
-    }
+   .productList .card {
 
-    .card-image{
-      
-    }
+   }
 }
 
-@media only screen and (max-width: 999px) {
-    .cardContainer {
-      width: 96%;
-      margin: 2em -.5em;
-      margin-bottom: 80px;
-    }
-    .card-image{
-      
-    }
-}
+
+
+
+
+
 
 .right {
   float: right;
@@ -111,33 +122,10 @@
   transition: width 0.3s ease, height 0.5s 0.2s ease;
 }
 
-.card-image{
- 
- 
-  overflow: hidden;
 
- 
-}
 
-.card-image img{
-  width: 100%;
-}
 
-.card-desc{
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 400;
-  margin: 2% 1%;
-  Overflow: auto;
-}
 
-// card title
-.card-desc-head{
-  padding: 5vh;
-  margin: auto;
-  font-weight: 300;
-  font-size: 25px;
-  overflow: hidden;
-}
 
 
 

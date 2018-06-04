@@ -1,7 +1,7 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
-export default class ReactNav extends React.Component {
+export default class StoreHeader extends React.Component {
   constructor(props) {
     super(props);
 
@@ -19,8 +19,8 @@ export default class ReactNav extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" light>
-          <NavbarBrand href="/" className="mr-auto">reactstrap</NavbarBrand>
+        <Navbar color="dark" dark>
+          <NavbarBrand href="/" className="mr-auto">the react store</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
