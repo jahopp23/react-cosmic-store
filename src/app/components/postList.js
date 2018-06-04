@@ -9,7 +9,6 @@ import { Table } from 'reactstrap';
 
 const PostList  = ({posts}) => (
     
-    
     <ul className="postList">
    
     {posts.map((item, index) => (

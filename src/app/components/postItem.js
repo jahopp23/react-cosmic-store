@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import moment from 'moment'
 import { Container, Row, Col } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button } from 'reactstrap';
+  CardTitle, CardSubtitle, Button } from 'reactstrap'
   import { Table } from 'reactstrap';
 
 const Post = ({ props, completed, image, description, title, slug, author, date, authorImage}) => {
@@ -13,13 +13,15 @@ const Post = ({ props, completed, image, description, title, slug, author, date,
       
        
          <Card className="card">
+           <CardBody>
+           <div className="author-subtitle"><CardSubtitle><img className="author-image" src={authorImage}></img><p>{author}</p></CardSubtitle></div>
            <CardImg className="card-image" src={image} top-width="100%">
           </CardImg>
-        <CardBody>
+      
           <CardTitle>{title}</CardTitle>
-          <CardSubtitle>posted by: {author}</CardSubtitle>
+       
           <CardText>{description}</CardText>
-          <Button>Buy Now</Button>
+          <Button color="primary">Buy Now</Button>
         </CardBody>
       </Card>
       

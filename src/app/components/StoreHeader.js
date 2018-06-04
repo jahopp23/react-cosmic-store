@@ -19,8 +19,8 @@ export default class StoreHeader extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark>
-          <NavbarBrand href="/" className="mr-auto">the react store</NavbarBrand>
+        <Navbar color="dark" inverse dark>
+          <NavbarBrand href="/" className="mr-auto">CosmicJS React Store</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>

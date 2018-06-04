@@ -3,27 +3,86 @@
   display:inline-block;
   background-color: #E8E8E8;
 
+  
+
 }
 
 .postList .card{
   display: inline-block;
 
-  margin-top: 2.00rem;
+  
   display: inline-block;
+  margin: 0.00rem;
+  width: 60%;
   margin: 1.00rem;
+  border-radius: 5px;
  
 
 
 
+}
+
+.intro-card{
+  text-align: center;
+  margin-top:1.00rem;
+}
+.store-display{
+
+  width: 100%; 
+  height: 250px;
+ 
+
+}
+
+.card .card-display{
+
+}
+
+
+.card {
+
+   
+}
+
+.card .btn {
+  font-size: 1.00rem;
+  float: right;
+  top: -1.00rem;
+  position: relative;
 }
 
 .card .card-image{
 
   border-radius: 0.0rem;
-  max-height: 175px;
+ 
+  height: 200px;
+  width: 100%;
+  position:relative;
+  top: -1.00rem;
 
  
 }
+
+.author-image{
+  width: 50px;
+  border-radius: 50px;
+  margin: 1.00rem;
+}
+
+.author-subtitle p{
+  position: relative;
+  display: inline-block;
+  left: -0.50rem;
+
+  
+}
+
+.author-subtitle{
+  position: relative;
+  top: -1.00rem;
+}
+
+
 
 .product-container {
   background-color: white;
@@ -76,7 +135,7 @@
   display:flex;
   bottom: 0;
   width: 90%;
-  margin: 0% 2px;
+   margin: 0% 2px;
 }
 
 
@@ -85,9 +144,20 @@
 
 }
 
-@media only screen and (min-width: 319px){
+@media only screen and (max-width: 566px){
   .productList .card{
-    width: 200px;
+
+  }
+}
+
+@media only screen and (max-width: 1366px){
+  .productList .card  {
+
+    
+  }
+
+  .productList .card{
+    
   }
 }
 

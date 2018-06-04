@@ -10,6 +10,7 @@ const Routes = () => (
  
   <div>
   <StoreHeader />
+
      <Route exact path="/" component={Post} />
       <Route exact path="/:slug" component={Slug} />
       </div>    
