@@ -1,4 +1,4 @@
-# Cosmic JS Blog
+# Cosmic JS
 ## React, Redux, Node, Cosmic JS
 
 
