@@ -5,9 +5,13 @@ import moment from 'moment'
 import { Container, Row, Col } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap'
-  import { Table } from 'reactstrap';
+import { Table } from 'reactstrap';
+import StripeCheckout from 'react-stripe-checkout';
 
-const Post = ({ props, completed, image, content, category, amount, title, slug, author, date, authorImage}) => {
+
+
+
+const Post = ({ props, completed, image, title, slug, author, date, authorImage}) => {
   return (
  
       
@@ -15,14 +19,15 @@ const Post = ({ props, completed, image, content, category, amount, title, slug,
          <Card className="card">
            <CardBody>
            <div className="author-subtitle"><CardSubtitle><img className="author-image" src={authorImage}></img><p>{author}</p><p className="date">{date}</p></CardSubtitle></div>
-           <CardImg className="card-image" src={image} top-width="100%">
-          </CardImg>
+           <CardImg className="card-image" src={image} top-width="100%"></CardImg>
       
           <CardTitle>{title}</CardTitle>
-       
-          <CardText>{content}</CardText>
-  
-        </CardBody>
+          <StripeCheckout
+              // token={this.onToken}
+              // stripeKey=""
+          
+          />     
+          </CardBody>
       </Card>
       
    
@@ -36,9 +41,7 @@ Post.propTypes ={
   slug: PropTypes.string.isRequired,  
   author: PropTypes.string.isRequired,
   authorImage: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
-  amount: PropTypes.string.isRequired
+
 }
 
 export default Post

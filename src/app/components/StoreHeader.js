@@ -19,16 +19,19 @@ export default class StoreHeader extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" inverse dark>
+        <Navbar color="dark" dark>
           <NavbarBrand href="/" className="mr-auto">CosmicJS React Store</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/components/">Store</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink href="/components/">Cart</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/jahopp23/react-cosmic-store">GitHub</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

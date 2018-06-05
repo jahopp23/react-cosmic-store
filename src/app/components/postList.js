@@ -6,7 +6,6 @@ import { Container, Row, Col } from 'reactstrap';
 import { Table } from 'reactstrap';
 
 
-
 const PostList  = ({posts}) => (
     
     <ul className="postList">
