@@ -1,0 +1,778 @@
+{
+  "bucket": {
+    "_id": "5b1212f0f29b5f7a66666df8",
+    "slug": "react-store",
+    "title": "react-store",
+    "object_types": [
+      {
+        "title": "Posts",
+        "slug": "posts",
+        "singular": "Post",
+        "metafields": [
+          {
+            "value": "",
+            "key": "hero",
+            "title": "Hero",
+            "type": "file",
+            "children": null
+          },
+          {
+            "value": "",
+            "key": "teaser",
+            "title": "Teaser",
+            "type": "html-textarea",
+            "children": null
+          },
+          {
+            "object_type": "authors",
+            "value": "",
+            "key": "author",
+            "title": "Author",
+            "type": "object",
+            "children": null
+          },
+          {
+            "object_type": "categories",
+            "key": "categories",
+            "title": "Categories",
+            "type": "objects",
+            "children": null
+          }
+        ],
+        "localization": false,
+        "locales": "",
+        "order": 2
+      },
+      {
+        "title": "Authors",
+        "slug": "authors",
+        "singular": "Author",
+        "metafields": [
+          {
+            "value": "",
+            "key": "image",
+            "title": "Image",
+            "type": "file",
+            "children": null
+          }
+        ],
+        "order": 3
+      },
+      {
+        "title": "Globals",
+        "slug": "globals",
+        "singular": "Global",
+        "metafields": [],
+        "localization": false,
+        "locales": "",
+        "order": 1
+      },
+      {
+        "title": "Categories",
+        "slug": "categories",
+        "singular": "Category",
+        "metafields": [],
+        "localization": false,
+        "locales": ""
+      }
+    ],
+    "links": [],
+    "objects": [
+      {
+        "_id": "5b12130365e03a7afd0c8142",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "jane-doe",
+        "title": "Jane Doe",
+        "content": "<p>Something about Jane...</p>",
+        "type_slug": "authors",
+        "created": "2018-01-05T19:03:34.413Z",
+        "created_at": "2018-01-05T19:03:34.413Z",
+        "modified_at": "2018-06-02T03:46:11.711Z",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "order": 0,
+        "status": "published",
+        "published_at": "2018-06-02T03:46:11.711Z",
+        "metadata": {
+          "image": {
+            "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg",
+            "imgix_url": "https://cosmic-s3.imgix.net/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg"
+          }
+        }
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8141",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "watercolor",
+        "title": "Watercolor",
+        "content": "",
+        "type_slug": "categories",
+        "created": "2018-01-05T19:03:34.411Z",
+        "created_at": "2018-01-05T19:03:34.411Z",
+        "modified_at": "2018-06-02T04:22:46.820Z",
+        "options": {
+          "content_editor": 0,
+          "slug_field": 0
+        },
+        "order": 0,
+        "status": "published",
+        "published_at": "2018-06-02T04:22:46.820Z",
+        "modified_by": "5af892858925dc4692f74dca",
+        "publish_at": null,
+        "metadata": null
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8144",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "deep-galaxy-cosmos-watercolor-print",
+        "title": "Deep Galaxy Cosmos Watercolor Print",
+        "content": "<p>Deep Galaxy Cosmos Watercolor Print</p><p>$45.00</p>",
+        "type_slug": "posts",
+        "created": "2018-01-06T16:55:11.040Z",
+        "created_at": "2018-01-06T16:55:11.039Z",
+        "modified_at": "2018-06-04T06:19:05.019Z",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "order": 0,
+        "status": "published",
+        "published_at": "2018-06-04T06:19:05.019Z",
+        "modified_by": "5af892858925dc4692f74dca",
+        "publish_at": null,
+        "metadata": {
+          "hero": {
+            "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/5c3bcae0-661c-11e8-817a-13b6627dd52c-DeepGalaxyWatercolor.jpg",
+            "imgix_url": "https://cosmic-s3.imgix.net/5c3bcae0-661c-11e8-817a-13b6627dd52c-DeepGalaxyWatercolor.jpg"
+          },
+          "teaser": "",
+          "author": {
+            "_id": "5b12130365e03a7afd0c8142",
+            "bucket": "5b1212f0f29b5f7a66666df8",
+            "slug": "jane-doe",
+            "title": "Jane Doe",
+            "content": "<p>Something about Jane...</p>",
+            "type_slug": "authors",
+            "created": "2018-01-05T19:03:34.413Z",
+            "created_at": "2018-01-05T19:03:34.413Z",
+            "modified_at": "2018-06-02T03:46:11.711Z",
+            "status": "published",
+            "published_at": "2018-06-02T03:46:11.711Z",
+            "metadata": {
+              "image": {
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg"
+              }
+            }
+          },
+          "categories": [
+            {
+              "_id": "5b12130365e03a7afd0c8141",
+              "bucket": "5b1212f0f29b5f7a66666df8",
+              "slug": "watercolor",
+              "title": "Watercolor",
+              "content": "",
+              "metafields": [],
+              "type_slug": "categories",
+              "created": "2018-01-05T19:03:34.411Z",
+              "created_at": "2018-01-05T19:03:34.411Z",
+              "modified_at": "2018-06-02T04:22:46.820Z",
+              "status": "published",
+              "published_at": "2018-06-02T04:22:46.820Z",
+              "modified_by": "5af892858925dc4692f74dca",
+              "publish_at": null
+            }
+          ],
+          "description": "Enjoy this placid, enchanting watercolor print of the deep blue cosmos.",
+          "amount": "45.00"
+        }
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8143",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "header",
+        "title": "Header",
+        "content": "",
+        "type_slug": "globals",
+        "created": "2018-01-05T19:03:34.414Z",
+        "created_at": "2018-01-05T19:03:34.414Z",
+        "modified_at": "2018-06-02T04:32:03.554Z",
+        "options": {
+          "content_editor": 0,
+          "slug_field": 0
+        },
+        "order": 0,
+        "status": "published",
+        "published_at": "2018-06-02T04:32:03.554Z",
+        "modified_by": "5af892858925dc4692f74dca",
+        "publish_at": null,
+        "metadata": {
+          "site_title": "React + Cosmic Store",
+          "site_tag": "\"Anything you can imagine is real.\" ~ Pablo Picasso"
+        }
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8146",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "john-doe",
+        "title": "John Doe",
+        "content": "<p>Something about John...</p>",
+        "type_slug": "authors",
+        "created": "2018-01-05T19:03:34.416Z",
+        "created_at": "2018-01-05T19:03:34.416Z",
+        "modified_at": "2018-06-02T03:46:11.720Z",
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "order": 1,
+        "status": "published",
+        "published_at": "2018-06-02T03:46:11.720Z",
+        "metadata": {
+          "image": {
+            "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+            "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg"
+          }
+        }
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8145",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "futurist",
+        "title": "Futurist",
+        "content": "",
+        "type_slug": "categories",
+        "created": "2018-01-05T19:03:34.415Z",
+        "created_at": "2018-01-05T19:03:34.415Z",
+        "modified_at": "2018-06-02T04:23:04.069Z",
+        "options": {
+          "content_editor": 0,
+          "slug_field": 0
+        },
+        "order": 1,
+        "status": "published",
+        "published_at": "2018-06-02T04:23:04.069Z",
+        "modified_by": "5af892858925dc4692f74dca",
+        "publish_at": null,
+        "metadata": null
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8147",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "ocean-horizon-view-watercolor-print",
+        "title": "Ocean Horizon View Watercolor Print",
+        "content": "<p>Ocean Horizon Watercolor Print&nbsp;</p><p>$30.00</p><p><br></p>",
+        "type_slug": "posts",
+        "created": "2018-01-06T16:53:58.867Z",
+        "created_at": "2018-01-06T16:53:58.867Z",
+        "modified_at": "2018-06-04T06:19:36.916Z",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "order": 1,
+        "status": "published",
+        "published_at": "2018-06-04T06:19:36.916Z",
+        "modified_by": "5af892858925dc4692f74dca",
+        "publish_at": null,
+        "metadata": {
+          "hero": {
+            "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/ef45da10-661c-11e8-b2ac-b520561370ac-OceanWatercolor.jpg",
+            "imgix_url": "https://cosmic-s3.imgix.net/ef45da10-661c-11e8-b2ac-b520561370ac-OceanWatercolor.jpg"
+          },
+          "teaser": "",
+          "author": {
+            "_id": "5b12130365e03a7afd0c8146",
+            "bucket": "5b1212f0f29b5f7a66666df8",
+            "slug": "john-doe",
+            "title": "John Doe",
+            "content": "<p>Something about John...</p>",
+            "type_slug": "authors",
+            "created": "2018-01-05T19:03:34.416Z",
+            "created_at": "2018-01-05T19:03:34.416Z",
+            "modified_at": "2018-06-02T03:46:11.720Z",
+            "status": "published",
+            "published_at": "2018-06-02T03:46:11.720Z",
+            "metadata": {
+              "image": {
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg"
+              }
+            }
+          },
+          "categories": [
+            {
+              "_id": "5b12130365e03a7afd0c8141",
+              "bucket": "5b1212f0f29b5f7a66666df8",
+              "slug": "watercolor",
+              "title": "Watercolor",
+              "content": "",
+              "metafields": [],
+              "type_slug": "categories",
+              "created": "2018-01-05T19:03:34.411Z",
+              "created_at": "2018-01-05T19:03:34.411Z",
+              "modified_at": "2018-06-02T04:22:46.820Z",
+              "status": "published",
+              "published_at": "2018-06-02T04:22:46.820Z",
+              "modified_by": "5af892858925dc4692f74dca",
+              "publish_at": null
+            }
+          ],
+          "amount": "30.00"
+        }
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8148",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "graphic-design",
+        "title": "Graphic Design",
+        "content": "",
+        "type_slug": "categories",
+        "created": "2018-01-05T19:03:34.419Z",
+        "created_at": "2018-01-05T19:03:34.419Z",
+        "modified_at": "2018-06-02T04:23:19.091Z",
+        "options": {
+          "content_editor": 0,
+          "slug_field": 0
+        },
+        "order": 2,
+        "status": "published",
+        "published_at": "2018-06-02T04:23:19.091Z",
+        "modified_by": "5af892858925dc4692f74dca",
+        "publish_at": null,
+        "metadata": null
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8149",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "neon-l1ps-quadtych-glossy-graphic-print",
+        "title": "Neon L1ps Quadtych Glossy Graphic Print",
+        "content": "<p>Neon L1ps Quadtych Glossy Graphic Print</p><p>$50.00</p>",
+        "type_slug": "posts",
+        "created": "2018-01-06T16:50:36.934Z",
+        "created_at": "2018-01-06T16:50:36.934Z",
+        "modified_at": "2018-06-04T06:19:58.373Z",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "order": 2,
+        "status": "published",
+        "published_at": "2018-06-04T06:19:58.373Z",
+        "modified_by": "5af892858925dc4692f74dca",
+        "publish_at": null,
+        "metadata": {
+          "hero": {
+            "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/507ec490-661d-11e8-a294-05cca0f7b101-NeonGlossyLipsQuadtych.jpg",
+            "imgix_url": "https://cosmic-s3.imgix.net/507ec490-661d-11e8-a294-05cca0f7b101-NeonGlossyLipsQuadtych.jpg"
+          },
+          "teaser": "",
+          "author": {
+            "_id": "5b12130365e03a7afd0c8142",
+            "bucket": "5b1212f0f29b5f7a66666df8",
+            "slug": "jane-doe",
+            "title": "Jane Doe",
+            "content": "<p>Something about Jane...</p>",
+            "type_slug": "authors",
+            "created": "2018-01-05T19:03:34.413Z",
+            "created_at": "2018-01-05T19:03:34.413Z",
+            "modified_at": "2018-06-02T03:46:11.711Z",
+            "status": "published",
+            "published_at": "2018-06-02T03:46:11.711Z",
+            "metadata": {
+              "image": {
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg"
+              }
+            }
+          },
+          "categories": [
+            {
+              "_id": "5b12130365e03a7afd0c8148",
+              "bucket": "5b1212f0f29b5f7a66666df8",
+              "slug": "graphic-design",
+              "title": "Graphic Design",
+              "content": "",
+              "metafields": [],
+              "type_slug": "categories",
+              "created": "2018-01-05T19:03:34.419Z",
+              "created_at": "2018-01-05T19:03:34.419Z",
+              "modified_at": "2018-06-02T04:23:19.091Z",
+              "status": "published",
+              "published_at": "2018-06-02T04:23:19.091Z",
+              "modified_by": "5af892858925dc4692f74dca",
+              "publish_at": null
+            }
+          ],
+          "amount": "50.00"
+        }
+      },
+      {
+        "_id": "5b12130365e03a7afd0c814a",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "random",
+        "title": "Random",
+        "content": "",
+        "type_slug": "categories",
+        "created": "2018-01-05T19:03:34.421Z",
+        "created_at": "2018-01-05T19:03:34.421Z",
+        "modified_at": "2018-06-02T03:46:11.725Z",
+        "options": {
+          "slug_field": 0,
+          "content_editor": 0
+        },
+        "order": 3,
+        "status": "published",
+        "published_at": "2018-06-02T03:46:11.725Z",
+        "metadata": null
+      },
+      {
+        "_id": "5b12130365e03a7afd0c814b",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "tri-head-forces-graphic-design-print",
+        "title": "Tri Head Forces Graphic Design Print ",
+        "content": "<p>Tri Head Forces Graphic Design Print<br>$40.00</p>",
+        "type_slug": "posts",
+        "created": "2018-01-05T19:03:34.417Z",
+        "created_at": "2018-01-05T19:03:34.417Z",
+        "modified_at": "2018-06-04T06:20:35.400Z",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "order": 4,
+        "status": "published",
+        "published_at": "2018-06-04T06:20:35.400Z",
+        "modified_by": "5af892858925dc4692f74dca",
+        "publish_at": null,
+        "metadata": {
+          "hero": {
+            "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/85037080-661d-11e8-a294-05cca0f7b101-TriForceFace.jpg",
+            "imgix_url": "https://cosmic-s3.imgix.net/85037080-661d-11e8-a294-05cca0f7b101-TriForceFace.jpg"
+          },
+          "teaser": "",
+          "author": {
+            "_id": "5b12130365e03a7afd0c8146",
+            "bucket": "5b1212f0f29b5f7a66666df8",
+            "slug": "john-doe",
+            "title": "John Doe",
+            "content": "<p>Something about John...</p>",
+            "type_slug": "authors",
+            "created": "2018-01-05T19:03:34.416Z",
+            "created_at": "2018-01-05T19:03:34.416Z",
+            "modified_at": "2018-06-02T03:46:11.720Z",
+            "status": "published",
+            "published_at": "2018-06-02T03:46:11.720Z",
+            "metadata": {
+              "image": {
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg"
+              }
+            }
+          },
+          "categories": [
+            {
+              "_id": "5b12130365e03a7afd0c8148",
+              "bucket": "5b1212f0f29b5f7a66666df8",
+              "slug": "graphic-design",
+              "title": "Graphic Design",
+              "content": "",
+              "metafields": [],
+              "type_slug": "categories",
+              "created": "2018-01-05T19:03:34.419Z",
+              "created_at": "2018-01-05T19:03:34.419Z",
+              "modified_at": "2018-06-02T04:23:19.091Z",
+              "status": "published",
+              "published_at": "2018-06-02T04:23:19.091Z",
+              "modified_by": "5af892858925dc4692f74dca",
+              "publish_at": null
+            }
+          ],
+          "amount": "40.00"
+        }
+      },
+      {
+        "_id": "5b12130365e03a7afd0c814c",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "slug": "8-bit-dystopia-future-digital-graphic-print",
+        "title": "8-bit Dystopia Future Digital Graphic Print",
+        "content": "<p>8-bit Dystopia Future Digital Graphic Print</p><p>$30.00</p>",
+        "type_slug": "posts",
+        "created": "2018-01-05T19:03:34.420Z",
+        "created_at": "2018-01-05T19:03:34.420Z",
+        "modified_at": "2018-06-04T06:21:03.565Z",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "order": 5,
+        "status": "published",
+        "published_at": "2018-06-04T06:21:03.565Z",
+        "modified_by": "5af892858925dc4692f74dca",
+        "publish_at": null,
+        "metadata": {
+          "hero": {
+            "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/b1961d50-661d-11e8-817a-13b6627dd52c-8bitDytopiaGraphic-0.jpg",
+            "imgix_url": "https://cosmic-s3.imgix.net/b1961d50-661d-11e8-817a-13b6627dd52c-8bitDytopiaGraphic-0.jpg"
+          },
+          "teaser": "",
+          "author": {
+            "_id": "5b12130365e03a7afd0c8142",
+            "bucket": "5b1212f0f29b5f7a66666df8",
+            "slug": "jane-doe",
+            "title": "Jane Doe",
+            "content": "<p>Something about Jane...</p>",
+            "type_slug": "authors",
+            "created": "2018-01-05T19:03:34.413Z",
+            "created_at": "2018-01-05T19:03:34.413Z",
+            "modified_at": "2018-06-02T03:46:11.711Z",
+            "status": "published",
+            "published_at": "2018-06-02T03:46:11.711Z",
+            "metadata": {
+              "image": {
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg"
+              }
+            }
+          },
+          "categories": [
+            {
+              "_id": "5b12130365e03a7afd0c8145",
+              "bucket": "5b1212f0f29b5f7a66666df8",
+              "slug": "futurist",
+              "title": "Futurist",
+              "content": "",
+              "metafields": [],
+              "type_slug": "categories",
+              "created": "2018-01-05T19:03:34.415Z",
+              "created_at": "2018-01-05T19:03:34.415Z",
+              "modified_at": "2018-06-02T04:23:04.069Z",
+              "status": "published",
+              "published_at": "2018-06-02T04:23:04.069Z",
+              "modified_by": "5af892858925dc4692f74dca",
+              "publish_at": null
+            },
+            {
+              "_id": "5b12130365e03a7afd0c8148",
+              "bucket": "5b1212f0f29b5f7a66666df8",
+              "slug": "graphic-design",
+              "title": "Graphic Design",
+              "content": "",
+              "metafields": [],
+              "type_slug": "categories",
+              "created": "2018-01-05T19:03:34.419Z",
+              "created_at": "2018-01-05T19:03:34.419Z",
+              "modified_at": "2018-06-02T04:23:19.091Z",
+              "status": "published",
+              "published_at": "2018-06-02T04:23:19.091Z",
+              "modified_by": "5af892858925dc4692f74dca",
+              "publish_at": null
+            }
+          ],
+          "amount": "30.00"
+        }
+      }
+    ],
+    "media": [
+      {
+        "_id": "5b12130365e03a7afd0c814d",
+        "name": "56363630-af74-11e7-b864-313f959a776e-react-blog.jpg",
+        "original_name": "react-blog.jpg",
+        "size": 1738375,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2017-10-12T17:39:45.561Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/56363630-af74-11e7-b864-313f959a776e-react-blog.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/56363630-af74-11e7-b864-313f959a776e-react-blog.jpg"
+      },
+      {
+        "_id": "5b12130365e03a7afd0c814e",
+        "name": "99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg",
+        "original_name": "female.jpg",
+        "size": 136906,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2017-04-18T05:12:21.502Z",
+        "folder": null,
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/99f48cb0-23f5-11e7-875c-3f5dc9c15c2b-female.jpg"
+      },
+      {
+        "_id": "5b12130365e03a7afd0c814f",
+        "name": "99fd6650-23f5-11e7-875c-3f5dc9c15c2b-beach.jpg",
+        "original_name": "beach.jpg",
+        "size": 430925,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2017-04-18T05:12:21.567Z",
+        "folder": null,
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/99fd6650-23f5-11e7-875c-3f5dc9c15c2b-beach.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/99fd6650-23f5-11e7-875c-3f5dc9c15c2b-beach.jpg"
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8150",
+        "name": "9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+        "original_name": "male.jpg",
+        "size": 241681,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2017-04-18T05:12:21.665Z",
+        "folder": null,
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/9a0a85b0-23f5-11e7-875c-3f5dc9c15c2b-male.jpg"
+      },
+      {
+        "_id": "5b12130365e03a7afd0c8151",
+        "name": "76875fe0-af74-11e7-b864-313f959a776e-react-blog-screenshot.png",
+        "original_name": "react-blog-screenshot.png",
+        "size": 1495840,
+        "type": "image/png",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2017-10-12T17:40:39.779Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/76875fe0-af74-11e7-b864-313f959a776e-react-blog-screenshot.png",
+        "imgix_url": "https://cosmic-s3.imgix.net/76875fe0-af74-11e7-b864-313f959a776e-react-blog-screenshot.png"
+      },
+      {
+        "_id": "5b121ae365e03a7afd0c8159",
+        "name": "2f240f90-661c-11e8-b2ac-b520561370ac-TriForceFace.jpg",
+        "original_name": "TriForceFace.jpg",
+        "size": 58857,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:19:47.306Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/2f240f90-661c-11e8-b2ac-b520561370ac-TriForceFace.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/2f240f90-661c-11e8-b2ac-b520561370ac-TriForceFace.jpg"
+      },
+      {
+        "_id": "5b121ae365e03a7afd0c815a",
+        "name": "2f600720-661c-11e8-b2ac-b520561370ac-OceanWatercolor.jpg",
+        "original_name": "OceanWatercolor.jpg",
+        "size": 209401,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:19:47.591Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/2f600720-661c-11e8-b2ac-b520561370ac-OceanWatercolor.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/2f600720-661c-11e8-b2ac-b520561370ac-OceanWatercolor.jpg"
+      },
+      {
+        "_id": "5b121ae3cfe3c37956ead37c",
+        "name": "2f960b40-661c-11e8-a294-05cca0f7b101-8bitDytopiaGraphic-0.jpg",
+        "original_name": "8bitDytopiaGraphic-0.jpg",
+        "size": 218600,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:19:47.894Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/2f960b40-661c-11e8-a294-05cca0f7b101-8bitDytopiaGraphic-0.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/2f960b40-661c-11e8-a294-05cca0f7b101-8bitDytopiaGraphic-0.jpg"
+      },
+      {
+        "_id": "5b121ae3cfe3c37956ead37b",
+        "name": "2f68e0c0-661c-11e8-a294-05cca0f7b101-NeonGlossyLipsQuadtych.jpg",
+        "original_name": "NeonGlossyLipsQuadtych.jpg",
+        "size": 32590,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:19:47.689Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/2f68e0c0-661c-11e8-a294-05cca0f7b101-NeonGlossyLipsQuadtych.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/2f68e0c0-661c-11e8-a294-05cca0f7b101-NeonGlossyLipsQuadtych.jpg"
+      },
+      {
+        "_id": "5b121ae3cfe3c37956ead37d",
+        "name": "2fa32aa0-661c-11e8-a294-05cca0f7b101-DeepGalaxyWatercolor.jpg",
+        "original_name": "DeepGalaxyWatercolor.jpg",
+        "size": 256205,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:19:47.956Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/2fa32aa0-661c-11e8-a294-05cca0f7b101-DeepGalaxyWatercolor.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/2fa32aa0-661c-11e8-a294-05cca0f7b101-DeepGalaxyWatercolor.jpg"
+      },
+      {
+        "_id": "5b121b2e8a9dcc7da4f02fec",
+        "name": "5c3bcae0-661c-11e8-817a-13b6627dd52c-DeepGalaxyWatercolor.jpg",
+        "original_name": "DeepGalaxyWatercolor.jpg",
+        "size": 256205,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:21:02.817Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/5c3bcae0-661c-11e8-817a-13b6627dd52c-DeepGalaxyWatercolor.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/5c3bcae0-661c-11e8-817a-13b6627dd52c-DeepGalaxyWatercolor.jpg"
+      },
+      {
+        "_id": "5b121c2565e03a7afd0c815f",
+        "name": "ef45da10-661c-11e8-b2ac-b520561370ac-OceanWatercolor.jpg",
+        "original_name": "OceanWatercolor.jpg",
+        "size": 209401,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:25:09.478Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/ef45da10-661c-11e8-b2ac-b520561370ac-OceanWatercolor.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/ef45da10-661c-11e8-b2ac-b520561370ac-OceanWatercolor.jpg"
+      },
+      {
+        "_id": "5b121cc8cfe3c37956ead384",
+        "name": "507ec490-661d-11e8-a294-05cca0f7b101-NeonGlossyLipsQuadtych.jpg",
+        "original_name": "NeonGlossyLipsQuadtych.jpg",
+        "size": 32590,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:27:52.586Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/507ec490-661d-11e8-a294-05cca0f7b101-NeonGlossyLipsQuadtych.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/507ec490-661d-11e8-a294-05cca0f7b101-NeonGlossyLipsQuadtych.jpg"
+      },
+      {
+        "_id": "5b121d20cfe3c37956ead386",
+        "name": "85037080-661d-11e8-a294-05cca0f7b101-TriForceFace.jpg",
+        "original_name": "TriForceFace.jpg",
+        "size": 58857,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:29:20.741Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/85037080-661d-11e8-a294-05cca0f7b101-TriForceFace.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/85037080-661d-11e8-a294-05cca0f7b101-TriForceFace.jpg"
+      },
+      {
+        "_id": "5b121d6b8a9dcc7da4f02fed",
+        "name": "b1961d50-661d-11e8-817a-13b6627dd52c-8bitDytopiaGraphic-0.jpg",
+        "original_name": "8bitDytopiaGraphic-0.jpg",
+        "size": 218600,
+        "type": "image/jpeg",
+        "bucket": "5b1212f0f29b5f7a66666df8",
+        "created": "2018-06-02T04:30:35.479Z",
+        "location": "https://s3-us-west-2.amazonaws.com/cosmicjs",
+        "folder": null,
+        "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/b1961d50-661d-11e8-817a-13b6627dd52c-8bitDytopiaGraphic-0.jpg",
+        "imgix_url": "https://cosmic-s3.imgix.net/b1961d50-661d-11e8-817a-13b6627dd52c-8bitDytopiaGraphic-0.jpg"
+      }
+    ],
+    "media_folders": [],
+    "extensions": []
+  }
+}
